@@ -1,23 +1,23 @@
-﻿# Datasets
+﻿# Dataset directories
 /data/
 /train/
 /test/
 /test2/
 
-# Large pretrained model weights
-/models/*
-!/models/siglip_fusion_prototypes.pt
-*.safetensors
+# Pretrained model weights
+/models/
+*.pt
 *.pth
+*.safetensors
 *.ckpt
 
-# Python
+# Python temporary files
 __pycache__/
 *.pyc
 .venv/
 venv/
 
-# IDE settings
+# IDE configuration
 .vscode/
 .idea/
 
@@ -26,7 +26,7 @@ venv/
 .env.*
 *.pem
 
-# Compressed files
+# Compressed datasets
 *.zip
 *.tar
 *.gz
