@@ -222,3 +222,29 @@ not independently establish tokenizer configuration correctness.
 4. SigLIP pretrained model:
    https://huggingface.co/google/siglip-base-patch16-224
 
+
+## Standalone Checkpoint-Based Inference
+
+The saved one-shot classifier is located at:
+
+    models/siglip_fusion_prototypes.pt
+
+The checkpoint contains the visual prototypes, semantic text
+prototypes, class names, and fusion parameters.
+
+To classify the labeled test dataset:
+
+    py -3.14 scripts/inference.py --input test
+
+To classify an unlabeled image directory:
+
+    py -3.14 scripts/inference.py --input test2
+
+To classify an individual image:
+
+    py -3.14 scripts/inference.py --input example.jpg
+
+The original training images are not required for checkpoint-based
+inference. The pretrained SigLIP encoder is downloaded automatically
+if it is not already cached.
+
