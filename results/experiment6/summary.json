@@ -1,0 +1,16 @@
+{
+  "experiment": "experiment6_error_analysis",
+  "test_images": 400,
+  "fusion_correct": 332,
+  "fusion_accuracy": 0.83,
+  "tta_correct": 329,
+  "tta_accuracy": 0.8225,
+  "fusion_errors": 68,
+  "tta_errors": 71,
+  "comparison": {
+    "Both correct": 328,
+    "TTA introduced error": 4,
+    "TTA corrected error": 1,
+    "Both incorrect": 67
+  }
+}

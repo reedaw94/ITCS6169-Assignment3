@@ -1,0 +1,10 @@
+{
+  "experiment": "siglip_image_text_fusion",
+  "model": "google/siglip-base-patch16-224",
+  "labeled_training_images": 16,
+  "augmentation_views": 5,
+  "text_weight": 0.25,
+  "test_images": 400,
+  "correct": 332,
+  "accuracy": 0.83
+}

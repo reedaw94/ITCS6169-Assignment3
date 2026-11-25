@@ -1,0 +1,36 @@
+﻿# Datasets
+/data/
+/train/
+/test/
+/test2/
+
+# Large pretrained model weights
+/models/*
+!/models/siglip_fusion_prototypes.pt
+*.safetensors
+*.pth
+*.ckpt
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# IDE settings
+.vscode/
+.idea/
+
+# Credentials
+.env
+.env.*
+*.pem
+
+# Compressed files
+*.zip
+*.tar
+*.gz
+
+# Operating system files
+.DS_Store
+Thumbs.db

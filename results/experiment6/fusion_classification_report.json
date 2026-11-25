@@ -1,0 +1,111 @@
+{
+  "Bedroom": {
+    "precision": 1.0,
+    "recall": 0.4,
+    "f1-score": 0.5714285714285714,
+    "support": 25.0
+  },
+  "Coast": {
+    "precision": 0.78125,
+    "recall": 1.0,
+    "f1-score": 0.8771929824561403,
+    "support": 25.0
+  },
+  "Flower": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 25.0
+  },
+  "Forest": {
+    "precision": 0.7272727272727273,
+    "recall": 0.96,
+    "f1-score": 0.8275862068965517,
+    "support": 25.0
+  },
+  "Highway": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 25.0
+  },
+  "Industrial": {
+    "precision": 1.0,
+    "recall": 0.68,
+    "f1-score": 0.8095238095238095,
+    "support": 25.0
+  },
+  "InsideCity": {
+    "precision": 0.6363636363636364,
+    "recall": 0.56,
+    "f1-score": 0.5957446808510638,
+    "support": 25.0
+  },
+  "Kitchen": {
+    "precision": 0.8928571428571429,
+    "recall": 1.0,
+    "f1-score": 0.9433962264150944,
+    "support": 25.0
+  },
+  "LivingRoom": {
+    "precision": 0.631578947368421,
+    "recall": 0.96,
+    "f1-score": 0.7619047619047619,
+    "support": 25.0
+  },
+  "Mountain": {
+    "precision": 0.696969696969697,
+    "recall": 0.92,
+    "f1-score": 0.7931034482758621,
+    "support": 25.0
+  },
+  "Office": {
+    "precision": 0.9259259259259259,
+    "recall": 1.0,
+    "f1-score": 0.9615384615384616,
+    "support": 25.0
+  },
+  "OpenCountry": {
+    "precision": 0.6666666666666666,
+    "recall": 0.08,
+    "f1-score": 0.14285714285714285,
+    "support": 25.0
+  },
+  "Store": {
+    "precision": 1.0,
+    "recall": 0.92,
+    "f1-score": 0.9583333333333334,
+    "support": 25.0
+  },
+  "Street": {
+    "precision": 0.6571428571428571,
+    "recall": 0.92,
+    "f1-score": 0.7666666666666667,
+    "support": 25.0
+  },
+  "Suburb": {
+    "precision": 0.9259259259259259,
+    "recall": 1.0,
+    "f1-score": 0.9615384615384616,
+    "support": 25.0
+  },
+  "TallBuilding": {
+    "precision": 1.0,
+    "recall": 0.88,
+    "f1-score": 0.9361702127659575,
+    "support": 25.0
+  },
+  "accuracy": 0.83,
+  "macro avg": {
+    "precision": 0.8463720954058125,
+    "recall": 0.8300000000000001,
+    "f1-score": 0.8066865604032425,
+    "support": 400.0
+  },
+  "weighted avg": {
+    "precision": 0.8463720954058125,
+    "recall": 0.83,
+    "f1-score": 0.8066865604032424,
+    "support": 400.0
+  }
+}

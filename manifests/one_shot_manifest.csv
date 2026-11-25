@@ -1,0 +1,17 @@
+class_id,class_name,image_path
+0,Bedroom,train\Bedroom\image_0029.jpg
+1,Coast,train\Coast\image_0007.jpg
+2,Flower,train\Flower\image_0121.jpg
+3,Forest,train\Forest\image_0063.jpg
+4,Highway,train\Highway\image_0058.jpg
+5,Industrial,train\Industrial\image_0036.jpg
+6,InsideCity,train\InsideCity\image_0027.jpg
+7,Kitchen,train\Kitchen\image_0188.jpg
+8,LivingRoom,train\LivingRoom\image_0023.jpg
+9,Mountain,train\Mountain\image_0238.jpg
+10,Office,train\Office\image_0009.jpg
+11,OpenCountry,train\OpenCountry\image_0008.jpg
+12,Store,train\Store\image_0024.jpg
+13,Street,train\Street\image_0056.jpg
+14,Suburb,train\Suburb\image_0060.jpg
+15,TallBuilding,train\TallBuilding\image_0294.jpg

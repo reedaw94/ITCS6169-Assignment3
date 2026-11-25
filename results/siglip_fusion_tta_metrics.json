@@ -1,0 +1,12 @@
+{
+  "experiment": "siglip_fusion_tta",
+  "model": "google/siglip-base-patch16-224",
+  "labeled_training_images": 16,
+  "reference_augmentation_views": 5,
+  "test_time_augmentation_views": 3,
+  "text_weight": 0.25,
+  "test_images": 400,
+  "correct": 329,
+  "accuracy": 0.8225,
+  "seed": 42
+}

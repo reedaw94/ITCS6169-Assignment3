@@ -1,0 +1,5 @@
+comparison,count
+Both correct,328
+TTA introduced error,4
+TTA corrected error,1
+Both incorrect,67
